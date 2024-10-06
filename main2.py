@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 df=pd.read_csv("diabetes_prediction_dataset.csv")
 loaded_model = pickle.load(open('trained_model2.sav', 'rb'))
